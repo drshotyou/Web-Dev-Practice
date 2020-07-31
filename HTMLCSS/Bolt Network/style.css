@@ -1,0 +1,126 @@
+html, body {
+    font-family: "Oxygen", sans-serif; 
+    font-weight: 300; 
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    
+}
+
+.container {
+  max-width: 970px;
+}
+.jumbotron {
+    padding-top: 50px;
+    background-color: black;
+    width:100%;
+}
+.jumbotron img {
+    width:175px;
+}
+.jumbotron a{
+    color:white;
+    text-decoration: none;
+    padding:10px 20px 10px 20px;
+}
+
+.jumbotron a.btn{
+    color:#0393FF;
+    background-color:black;
+    border-color:#0393FF;
+}
+.jumbotron li {
+    display:inline;
+}
+
+.main {
+    margin-top:100px;
+    text-align: center;
+    color:white;
+    font-size:100px;
+    margin-bottom: -50px;  
+    
+}
+.main a {
+    color:#0393FF;
+    background-color:black;
+    border-color:#0393FF;
+    margin-top:-50px;
+}
+.main label.btn, .main label.btn-default{
+    color:#0393FF;
+    background-color:black;
+    border-color:#0393FF;
+    margin-top:-100px;
+    
+}
+.main input {
+    border:0;
+    border-radius:0;
+    border-bottom: 1px solid white;
+    background-color:black;
+    padding:0 100px 0 10px;
+    font-size:20px;
+    margin-top:-100px;
+    
+}
+.supporting {
+    background-image: url("diagmonds_@2X.png");
+    background-size:141px 142px; 
+    text-align: center;
+    margin-top: -31px;
+    padding-bottom: 80px;
+}
+
+.supporting h1 {
+    color:#0393FF;
+}
+.supporting h4 {
+    color:white;
+}
+.supporting .thumbnail {
+    border:0;
+    background: transparent;
+    
+    
+}
+.supporting .row  {
+   
+}
+/*.supporting  .lrg {
+    width:559px;
+    height:347px;
+    
+}*/
+
+/* Feature */
+.feature{
+  background:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:500px;
+  text-align:center;
+  position:relative;
+}
+.feature h1 {
+  line-height:350px;
+  color:#0393FF;
+}
+.feature p {
+  position:relative;
+	top:-150px;
+  color:white;
+  font-size:20px;
+}
+.footer {
+  background-color:black;
+  text-align:left;
+  height:300px;
+}
+.footer h1 {
+  color:white;
+}
+.footer p {
+  color:#0393FF;
+  font-size:20px;
+}
